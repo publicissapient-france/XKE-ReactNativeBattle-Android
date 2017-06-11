@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HenryPoitierXKE</string>
+    <string name="format_price">%d€</string>
+    <string name="fetch_error">Fetch error</string>
 </resources>

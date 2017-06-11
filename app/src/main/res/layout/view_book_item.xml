@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fr.xebia.henrypoitierxke.BookItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin10"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="@dimen/margin10"
+    card_view:cardMaxElevation="@dimen/margin10"
+    card_view:contentPadding="@dimen/margin10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/bookCover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin6"
+            tools:background="#eee"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/bookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="book title"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/bookPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            tools:text="30€"/>
+
+    </LinearLayout>
+
+</fr.xebia.henrypoitierxke.BookItemView>
