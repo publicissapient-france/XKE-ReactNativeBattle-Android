@@ -38,10 +38,6 @@ class MainActivity : AppCompatActivity(), Callback<List<Book>> {
         val layoutManager = GridLayoutManager(this, spanCount)
         bookRecyclerView.layoutManager = layoutManager
         bookRecyclerView.adapter = adapter
-
-        val spacing = 50 // 50px
-        val includeEdge = false
-//        bookRecyclerView.addItemDecoration(RecyclerView.ItemDecoration(spanCount, spacing, includeEdge))
     }
 
     override fun onFailure(call: Call<List<Book>>?, t: Throwable?) {
