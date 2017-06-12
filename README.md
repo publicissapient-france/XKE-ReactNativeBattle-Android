@@ -32,6 +32,11 @@ buildscript {
 If you are using Android Studio 3.0 Canary, you can simply follow this guide:
 https://kotlinlang.org/docs/tutorials/kotlin-android.html
 
+### Create virtual devices
+
+In order to test your application without an Android device, follow [this guide](https://developer.android.com/studio/run/managing-avds.html)
+to add an Android emulator of your choice.
+
 # Initial project configuration
 
 This project is already configured with Kotlin and necessary support libraries.
