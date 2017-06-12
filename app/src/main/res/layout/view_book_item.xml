@@ -5,6 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!-- TODO -->
+    <!-- TODO book cover-->
+
+    <!-- TODO book title-->
+
+    <!-- TODO book price-->
 
 </LinearLayout>

@@ -12,5 +12,7 @@ class MainActivity : AppCompatActivity() {
         // TODO set up your recyclerview
 
         // TODO create your retrofit client & fetch the book
+
+        // TODO implements the callback of retrofit client to display the result
     }
 }

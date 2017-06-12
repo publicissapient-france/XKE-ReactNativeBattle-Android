@@ -1,5 +1,6 @@
 package fr.xebia.henrypoitierxke
 
 class Book {
-    // TODO
+
+    // TODO define book object
 }

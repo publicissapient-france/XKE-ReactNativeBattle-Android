@@ -1,5 +1,7 @@
 package fr.xebia.henrypoitierxke
 
 class BooksAdapter {
-    // TODO
+
+    // TODO this adapter object acts as a bridge between the recyclerview & the book list
+
 }
